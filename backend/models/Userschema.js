@@ -7,6 +7,7 @@ var UserSchema = new mongoose.Schema({
   hash: String,
   salt: String
 }, {timestamps: true});
+// Connection
 
 const Users = new mongoose.model('User', UserSchema);
 module.exports = Users;
