@@ -41,3 +41,49 @@ a.product {
   width: 25px;
   height: 25px;
 }
+header {
+  box-shadow: 0px 2px 15px 0px rgb(0 0 0 / 10%);
+}
+header .nav .text-white {
+  color: rgb(0 0 0 / 50%)!important;
+  text-decoration: none;
+}
+header .nav .text-white.active {
+  color: rgb(0 0 0)!important;
+}
+header ul.nav.justify-content-center {
+  margin: auto !important;
+}
+header .btn:hover {
+  color: #fff !important;
+}
+a.btn.btn-primary, button.btn.btn-outline-dark.m-1 {
+  border: none !important;
+}
+.signup, .signin {
+  width: 500px;
+  margin: 50px auto;
+  padding: 60px 30px;
+  border-radius: 10px;
+  background: #4f4c47;
+  color: #fff;
+}
+.signup label.form-label, .signin label.form-label {
+  margin: 0;
+}
+.signup input,.signin input {
+  border-radius: 50px !important;
+  border: none !important;
+}
+.signup .tab a.nav-a, .signin .tab a.nav-a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255 255 255 / 50%) !important;
+}
+.signup .tab a.nav-a.active, .signin .tab a.nav-a.active {
+  color:#fff !important;
+}
+.signup .tab, .signin .tab {
+  margin-bottom: 50px;
+}
+

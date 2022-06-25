@@ -44,8 +44,15 @@ const Signup = () => {
 
   return (
     <div>
-        <div className='container'>
-            <h1 className='text-center'>Sign up</h1>
+        <div className=' signup'>
+            <div class="row text-center tab">
+                <div class="col-6">
+                    <NavLink to="/signin" className="nav-a px-2 text-white">Sign in</NavLink>
+                </div>
+                <div class="col-6">
+                    <NavLink to="/signup" className="nav-a px-2 text-white">Sign-up</NavLink>
+                </div>
+            </div>
             <form>
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
@@ -60,7 +67,7 @@ const Signup = () => {
                     <input type="password" class="form-control" id="Password" onChange={addData} name="password" value={logData.password} />
                 </div>
                 <button type="submit" class="btn btn-primary w-100 my-3" onClick={insertUser} >Submit</button>
-               <NavLink to="/signin"><button type="submit" class="btn btn-primary w-100 my-3">Sign in</button></NavLink>
+               {/* <NavLink to="/signin"><button type="submit" class="btn btn-primary w-100 my-3">Sign in</button></NavLink> */}
             </form>
         </div> 
     </div>
